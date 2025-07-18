@@ -1,0 +1,76 @@
+.accordion {
+    --bs-accordion-active-bg: #81E7AF !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-active-color: #000000 !important;
+}
+
+.accordion-button.collapsed {
+    border: 1px solid #000000 !important;
+    border-radius: 10px !important;
+
+}
+
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+    overflow: hidden;
+    border: 2px solid #000000 !important;
+    box-shadow: 5px 5px #03A791 !important;
+}
+
+.accordion-item {
+    border-radius: 1rem !important;
+
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.collapse {
+
+    background-color: #ECFAE5 !important;
+}
+
+.accordion-button::after {
+    font-family: bootstrap-icons !important;
+    content: "\F2E0" !important;
+
+    background-image: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\F7EB" !important;
+    background-image: none !important;
+    transform: none !important;
+}
+/* accordion and button styles */
+.btn-close{
+    position: relative !important;
+    width: 40px !important;
+    height: 40px !important;
+    color: white !important;
+    background-image: url("../assets/check-circle.svg") !important;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "\F27B\F27B" !important;
+    font-family: bootstrap-icons !important;
+    background-color: none !important;
+    /* background-image: url("../assets/chevron-compact-right.svg"); */
+}
+.breadcrumb{
+    background-color: #81E7AF !important;
+    max-width: 300px !important;
+    padding: 20px !important;
+}
+.active p{
+    background-color: #03A791 !important;
+}
+.box-1{
+    background-color: #ec8f6a !important;
+}
+
+.box-2{
+  
+    background-repeat: no-repeat;
+}
