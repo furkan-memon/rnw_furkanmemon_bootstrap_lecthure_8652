@@ -73,4 +73,19 @@
 .box-2{
   
     background-repeat: no-repeat;
+   
+}
+
+.btn:focus-within{
+    background-color: #5E936C;
+    color: #E8FFD7;
+
+}
+.btn-1{
+    background-color: #3E5F44 !important;
+    color: #E8FFD7;
+}
+.btn:hover{
+  background-color: #5E936C;
+    color: #E8FFD7;
 }
